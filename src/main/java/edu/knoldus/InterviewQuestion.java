@@ -4,6 +4,23 @@ class Parent {
     void call() {
         System.out.println("From Parent....");
     }
+    
+    void print(Object name) {
+        System.out.println(name);
+    }
+    
+    void print(String name) {
+        System.out.println("Hi string" + name);
+    }
+    
+    void print(Integer name) {
+        System.out.println("Hi Integer" + name);
+    }
+    
+    void print(int name) {
+        System.out.println("Hi int" + name);
+    }
+    
 }
 
 class Child extends Parent {
@@ -24,6 +41,7 @@ public class InterviewQuestion {
         /*String str1 = null;
         System.out.println(str1.length());*/
         
+        Parent parent = new Parent();
         Child child = new Child();
         child.call();
         child.call(5);
@@ -35,5 +53,9 @@ public class InterviewQuestion {
         l = k++;
         System.out.println("j = " + j);
         System.out.println("l = " + l + " k = " + k);
+        parent.print(Integer.valueOf("50"));
+        parent.print("Prashant");
+        parent.print(Object.class.cast("77"));
+        parent.print(Integer.parseInt("5"));
     }
 }
