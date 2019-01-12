@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Copyright (C) 2016-2017 Lightbend Inc. <https://www.lightbend.com>
+  -->
+<!-- The default logback configuration that Lagom uses in dev mode if no other configuration is provided -->
+<configuration>
+
+  <appender name="json" class="ch.qos.logback.core.ConsoleAppender">
+    <encoder class="ch.qos.logback.core.encoder.LayoutWrappingEncoder">
+      <layout class="edu.knoldus.JsonLayoutImpl">
+        <timestampFormat>yyyy-MM-dd HH:mm:ssz</timestampFormat>
+        <timestampFormatTimezoneId>EST</timestampFormatTimezoneId>
+        <appendLineSeparator>true</appendLineSeparator>
+      </layout>
+    </encoder>
+   <!-- <encoder>
+      <pattern>%-35(%d{HH:mm:ss.SSS} - method: [%M] ) %highlight(%-5level) %cyan(%logger{36}) - %msg%n</pattern>
+    </encoder>-->
+  </appender>
+
+
+  <!--<logger name="jsonLogger" level="TRACE">-->
+    <!--<appender-ref ref="json"/>-->
+  <!--</logger>-->
+  <root level="debug">
+    <appender-ref ref="json" />
+  </root>
+
+</configuration>
