@@ -46,7 +46,7 @@ public class InterviewQuestion {
         child.call();
         child.call(5);
         
-        int i = 5, j = 5, k = 5, l = 0;
+        int i = 5, j = 5, k = 5, l = 0;//by default the int's would have 0 as their value so l=0 would result in a warning here.
         i = i++;
         System.out.println("i = " + i);
         j = ++j;
