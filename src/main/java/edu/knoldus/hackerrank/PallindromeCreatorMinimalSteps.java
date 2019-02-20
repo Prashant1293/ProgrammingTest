@@ -1,4 +1,4 @@
-package edu.knoldus;
+package edu.knoldus.hackerrank;
 
 import java.util.ArrayList;
 import java.util.List;
