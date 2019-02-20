@@ -1,4 +1,4 @@
-package edu.knoldus;
+package edu.knoldus.hackerrank;
 
 import java.io.IOException;
 import java.util.ArrayList;

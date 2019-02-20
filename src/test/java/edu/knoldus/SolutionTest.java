@@ -1,10 +1,10 @@
 package edu.knoldus;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import edu.knoldus.hackerrank.Solution;
 import org.junit.Test;
 
 import java.io.File;
-import java.util.List;
 
 public class SolutionTest {
     private Solution obj = new Solution();

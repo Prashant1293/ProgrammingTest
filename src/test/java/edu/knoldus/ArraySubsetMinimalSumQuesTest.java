@@ -1,5 +1,6 @@
 package edu.knoldus;
 
+import edu.knoldus.hackerrank.ArraySubsetMinimalSumQues;
 import org.junit.Test;
 
 import java.util.ArrayList;
