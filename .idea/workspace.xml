@@ -3,13 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="de9d7d52-c36f-4ed9-a0fb-343d14731aa8" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/knoldus/ArraySubsetMinimalSumQues.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/knoldus/hackerrank/ArraySubsetMinimalSumQues.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/knoldus/MinimumSwap2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/knoldus/hackerrank/MinimumSwap2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/knoldus/PallindromeCreatorMinimalSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/knoldus/hackerrank/PallindromeCreatorMinimalSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/knoldus/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/knoldus/hackerrank/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/knoldus/ArraySubsetMinimalSumQuesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/knoldus/ArraySubsetMinimalSumQuesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/knoldus/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/knoldus/SolutionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/knoldus/PallindromeCreatorMinimalSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,11 +17,11 @@
     <session id="613633232">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="18" />
+          <entry key="project.closed" value="19" />
           <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.1" value="3" />
+          <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.2" value="3" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.38" value="2" />
@@ -43,7 +37,7 @@
           <entry key="project.open.time.53" value="1" />
           <entry key="project.open.time.58" value="1" />
           <entry key="project.open.time.68" value="1" />
-          <entry key="project.opened" value="30" />
+          <entry key="project.opened" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -52,35 +46,35 @@
           <entry key="OutputDynamicArray" value="1" />
           <entry key="SolutionTestData" value="1" />
           <entry key="class" value="9" />
-          <entry key="gitignore" value="1" />
-          <entry key="java" value="51" />
+          <entry key="gitignore" value="2" />
+          <entry key="java" value="54" />
           <entry key="json" value="1" />
           <entry key="md" value="1" />
-          <entry key="xml" value="5" />
+          <entry key="xml" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="9" />
-          <entry key="JAVA" value="51" />
+          <entry key="JAVA" value="54" />
           <entry key="JSON" value="1" />
-          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="PLAIN_TEXT" value="5" />
           <entry key="Specification" value="1" />
-          <entry key="XML" value="5" />
+          <entry key="XML" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="7708" />
+          <entry key="java" value="9422" />
           <entry key="md" value="156" />
-          <entry key="xml" value="198" />
+          <entry key="xml" value="202" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="7708" />
+          <entry key="JAVA" value="9422" />
           <entry key="Specification" value="156" />
-          <entry key="XML" value="198" />
+          <entry key="XML" value="202" />
         </counts>
       </usages-collector>
     </session>
@@ -88,22 +82,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/knoldus/hackerrank/MinimumSwap2.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/knoldus/InterviewQuestion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="864">
-              <caret line="69" column="34" lean-forward="true" selection-start-line="69" selection-start-column="34" selection-end-line="69" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="252">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/knoldus/hackerrank/DynamicArrays.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/knoldus/PlayWithString.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="70" column="10" lean-forward="true" selection-start-line="70" selection-start-column="10" selection-end-line="70" selection-end-column="10" />
+            <state relative-caret-position="252">
+              <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -112,10 +103,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OutputDynamicArray">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="522">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/knoldus/JsonLayoutImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="31" column="41" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -150,8 +153,6 @@
         <option value="$PROJECT_DIR$/src/test/resources/SolutionTestData" />
         <option value="$PROJECT_DIR$/src/test/java/edu/knoldus/SolutionTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/knoldus/SampleJson.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/knoldus/JsonLayoutImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/edu/knoldus/ArraySubsetMinimalSumQuesTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/knoldus/ArraySubsetMinimalSumQues.java" />
@@ -159,6 +160,10 @@
         <option value="$PROJECT_DIR$/src/main/java/edu/knoldus/MinimumSwap2.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/knoldus/hackerrank/MinimumSwap2.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/knoldus/hackerrank/DynamicArrays.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/knoldus/JsonLayoutImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/knoldus/PlayWithString.java" />
       </list>
     </option>
   </component>
@@ -181,8 +186,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="49" />
-    <option name="y" value="25" />
+    <option name="x" value="1969" />
+    <option name="y" value="95" />
     <option name="width" value="1317" />
     <option name="height" value="743" />
   </component>
@@ -192,7 +197,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -233,7 +237,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="knoldus" type="462c0819:PsiDirectoryNode" />
-              <item name="hackerrank" type="462c0819:PsiDirectoryNode" />
+              <item name="InterviewQuestion.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="programmingtest" type="b2602c69:ProjectViewProjectNode" />
@@ -242,43 +246,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="programmingtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="programmingtest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="programmingtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="programmingtest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="programmingtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="programmingtest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="knoldus" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="programmingtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="programmingtest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548519015194" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550661058783" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../logback-json-example" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -303,7 +280,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DynamicArrays">
+  <component name="RunManager" selected="Application.PlayWithString">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -352,6 +329,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PlayWithString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.knoldus.PlayWithString" />
+      <module name="programmingtest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.knoldus.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="edu.knoldus.hackerrank.Solution" />
       <module name="programmingtest" />
@@ -368,23 +359,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArraySubsetMinimalSumQuesTest.shouldTestTheMinimalElementThatCannotBeFormedFromTheSubsetOfArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="programmingtest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu.knoldus.hackerrank.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="edu.knoldus" />
-      <option name="MAIN_CLASS_NAME" value="edu.knoldus.ArraySubsetMinimalSumQuesTest" />
-      <option name="METHOD_NAME" value="shouldTestTheMinimalElementThatCannotBeFormedFromTheSubsetOfArray" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -413,19 +387,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.ArraySubsetMinimalSumQuesTest.shouldTestTheMinimalElementThatCannotBeFormedFromTheSubsetOfArray" />
       <item itemvalue="Application.MinimumSwap2" />
       <item itemvalue="Application.Solution" />
       <item itemvalue="Application.PallindromeCreatorMinimalSteps" />
       <item itemvalue="Application.DynamicArrays" />
+      <item itemvalue="Application.PlayWithString" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PlayWithString" />
         <item itemvalue="Application.DynamicArrays" />
         <item itemvalue="Application.PallindromeCreatorMinimalSteps" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.MinimumSwap2" />
-        <item itemvalue="JUnit.ArraySubsetMinimalSumQuesTest.shouldTestTheMinimalElementThatCannotBeFormedFromTheSubsetOfArray" />
       </list>
     </recent_temporary>
   </component>
@@ -480,7 +454,8 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="49" y="25" width="1317" height="743" extended-state="6" />
+    <frame x="1969" y="95" width="1317" height="743" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.2147915" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -546,13 +521,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="1337" column="24" selection-start-line="1337" selection-start-column="24" selection-end-line="1337" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="214">
@@ -585,13 +553,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="14" selection-start-column="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -641,13 +602,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="150" column="11" selection-start-line="150" selection-start-column="11" selection-end-line="150" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/knoldus/InterviewQuestion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="48" column="128" selection-start-line="48" selection-start-column="128" selection-end-line="48" selection-end-column="128" />
         </state>
       </provider>
     </entry>
@@ -791,13 +745,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/ch/qos/logback/contrib/logback-json-core/0.1.5/logback-json-core-0.1.5-sources.jar!/ch/qos/logback/contrib/json/JsonLayoutBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -816,16 +763,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
           <caret line="28" column="58" selection-start-line="28" selection-start-column="58" selection-end-line="28" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/knoldus/JsonLayoutImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -875,10 +812,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="111">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="e#1369#1370#0" expanded="true" />
-            <element signature="e#1411#1412#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -886,16 +819,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
           <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/knoldus/hackerrank/MinimumSwap2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="69" column="34" lean-forward="true" selection-start-line="69" selection-start-column="34" selection-end-line="69" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -908,8 +831,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/knoldus/hackerrank/DynamicArrays.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="70" column="10" lean-forward="true" selection-start-line="70" selection-start-column="10" selection-end-line="70" selection-end-column="10" />
+        <state relative-caret-position="1260">
+          <caret line="70" column="10" selection-start-line="70" selection-start-column="10" selection-end-line="70" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/knoldus/hackerrank/MinimumSwap2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1242">
+          <caret line="69" column="34" selection-start-line="69" selection-start-column="34" selection-end-line="69" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/knoldus/InterviewQuestion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/knoldus/JsonLayoutImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="31" column="41" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/knoldus/PlayWithString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
