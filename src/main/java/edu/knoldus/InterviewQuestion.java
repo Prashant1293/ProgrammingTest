@@ -21,6 +21,9 @@ class Parent {
         System.out.println("Hi int" + name);
     }
     
+    int x = 10;
+    
+    String myName = "Prashant";
 }
 
 class Child extends Parent {
@@ -31,6 +34,15 @@ class Child extends Parent {
     
     void call(int a) {
         System.out.println("Only from child....." + a);
+    }
+    
+    void getVariables() {
+        System.out.println("Variables in the base class:: x = " + x + " and myName = " + myName);
+    }
+    
+    void setBaseClassVariables(int value, String name) {
+        this.x = value;
+        this.myName = name;
     }
 }
 
@@ -57,5 +69,15 @@ public class InterviewQuestion {
         parent.print("Prashant");
         parent.print(Object.class.cast("77"));
         parent.print(Integer.parseInt("5"));
+        
+        System.out.println("Recently there was a question: can we set the base class variables from a method of the "
+                + "child class using keyword \"this\"? answer: yes we can do, see the output below: the values for "
+                + "base class variables x and myName are being updated/set from the child class.");
+        System.out.println("Base class values =>");
+        child.getVariables();
+        System.out.println("Update the base class values from the child class using the \"this\" keyword.");
+        child.setBaseClassVariables(50, "Sharma_Prashant");
+        System.out.println("Base class values =>");
+        child.getVariables();
     }
 }
