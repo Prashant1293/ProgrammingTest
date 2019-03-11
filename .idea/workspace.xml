@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de9d7d52-c36f-4ed9-a0fb-343d14731aa8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/knoldus/InterviewQuestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/knoldus/InterviewQuestion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -16,11 +16,11 @@
     <session id="613633232">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="19" />
+          <entry key="project.closed" value="20" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.2" value="3" />
+          <entry key="project.open.time.2" value="4" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.38" value="2" />
@@ -36,7 +36,7 @@
           <entry key="project.open.time.53" value="1" />
           <entry key="project.open.time.58" value="1" />
           <entry key="project.open.time.68" value="1" />
-          <entry key="project.opened" value="32" />
+          <entry key="project.opened" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -46,7 +46,7 @@
           <entry key="SolutionTestData" value="1" />
           <entry key="class" value="9" />
           <entry key="gitignore" value="3" />
-          <entry key="java" value="54" />
+          <entry key="java" value="56" />
           <entry key="json" value="1" />
           <entry key="md" value="1" />
           <entry key="xml" value="6" />
@@ -55,7 +55,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="9" />
-          <entry key="JAVA" value="54" />
+          <entry key="JAVA" value="56" />
           <entry key="JSON" value="1" />
           <entry key="PLAIN_TEXT" value="6" />
           <entry key="Specification" value="1" />
@@ -64,14 +64,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="9919" />
+          <entry key="java" value="10838" />
           <entry key="md" value="156" />
           <entry key="xml" value="202" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="9919" />
+          <entry key="JAVA" value="10838" />
           <entry key="Specification" value="156" />
           <entry key="XML" value="202" />
         </counts>
@@ -80,15 +80,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/knoldus/InterviewQuestion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
-              <caret line="73" column="178" selection-start-line="73" selection-start-column="178" selection-end-line="73" selection-end-column="178" />
-              <folding>
-                <element signature="e#729#730#0" expanded="true" />
-                <element signature="e#833#834#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1188">
+              <caret line="80" column="29" selection-start-line="80" selection-start-column="29" selection-end-line="80" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -105,29 +101,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/edu/knoldus/UnmodifiableVsImmutableTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="478">
-              <caret line="57" column="10" selection-start-line="57" selection-start-column="10" selection-end-line="57" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/knoldus/JsonLayoutImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="31" column="41" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
+            <state relative-caret-position="1278">
+              <caret line="71" column="115" selection-start-line="71" selection-start-column="115" selection-end-line="71" selection-end-column="115" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -176,6 +154,7 @@
         <option value="$PROJECT_DIR$/src/main/java/edu/knoldus/PlayWithString.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/edu/knoldus/InterviewQuestion.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/knoldus/UnmodifiableVsImmutableTest.java" />
       </list>
     </option>
   </component>
@@ -198,10 +177,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1969" />
-    <option name="y" value="95" />
-    <option name="width" value="1317" />
-    <option name="height" value="743" />
+    <option name="x" value="49" />
+    <option name="y" value="-2" />
+    <option name="width" value="1871" />
+    <option name="height" value="1082" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -209,6 +188,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -246,21 +227,31 @@
               <item name="programmingtest" type="b2602c69:ProjectViewProjectNode" />
               <item name="programmingtest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="programmingtest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="programmingtest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="programmingtest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="programmingtest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="knoldus" type="462c0819:PsiDirectoryNode" />
-              <item name="InterviewQuestion.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550737950446" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552290558011" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../logback-json-example" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -285,7 +276,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.InterviewQuestion">
+  <component name="RunManager" selected="JUnit.UnmodifiableVsImmutableTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -348,22 +339,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="edu.knoldus.hackerrank.Solution" />
-      <module name="programmingtest" />
+    <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu.knoldus.hackerrank.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    <configuration name="UnmodifiableVsImmutableTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="programmingtest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.knoldus.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.knoldus" />
+      <option name="MAIN_CLASS_NAME" value="edu.knoldus.UnmodifiableVsImmutableTest" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -392,19 +384,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution" />
       <item itemvalue="Application.PallindromeCreatorMinimalSteps" />
       <item itemvalue="Application.DynamicArrays" />
       <item itemvalue="Application.PlayWithString" />
       <item itemvalue="Application.InterviewQuestion" />
+      <item itemvalue="JUnit.UnmodifiableVsImmutableTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UnmodifiableVsImmutableTest" />
         <item itemvalue="Application.InterviewQuestion" />
         <item itemvalue="Application.PlayWithString" />
         <item itemvalue="Application.DynamicArrays" />
         <item itemvalue="Application.PallindromeCreatorMinimalSteps" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -427,12 +419,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SolutionTest - 2018.12.26 at 11h 39m 02s.xml">
-      <configuration name="SolutionTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SolutionTest_testDynamicArrayMethod - 2018.12.26 at 12h 10m 26s.xml">
-      <configuration name="SolutionTest.testDynamicArrayMethod" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SolutionTest_testDynamicArrayMethod - 2018.12.26 at 12h 13m 52s.xml">
       <configuration name="SolutionTest.testDynamicArrayMethod" configurationId="JUnit" />
     </history-entry>
@@ -457,12 +443,18 @@
     <history-entry file="ArraySubsetMinimalSumQuesTest_shouldTestTheMinimalElementThatCannotBeFormedFromTheSubsetOfArray - 2019.01.12 at 22h 03m 12s.xml">
       <configuration name="ArraySubsetMinimalSumQuesTest.shouldTestTheMinimalElementThatCannotBeFormedFromTheSubsetOfArray" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="UnmodifiableVsImmutableTest - 2019.03.11 at 13h 04m 05s.xml">
+      <configuration name="UnmodifiableVsImmutableTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UnmodifiableVsImmutableTest - 2019.03.11 at 13h 10m 53s.xml">
+      <configuration name="UnmodifiableVsImmutableTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1969" y="95" width="1317" height="743" extended-state="6" />
+    <frame x="49" y="-2" width="1871" height="1082" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2147915" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15178083" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -471,7 +463,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4996066" weight="0.50734097" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4996066" weight="0.50630254" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -526,20 +518,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="111" column="43" selection-start-line="111" selection-start-column="43" selection-end-line="111" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/Comparable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="95" column="17" selection-start-line="95" selection-start-column="17" selection-end-line="95" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/Comparator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4608">
@@ -848,13 +826,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/knoldus/JsonLayoutImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -862,6 +833,34 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/knoldus/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/knoldus/InterviewQuestion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1188">
+          <caret line="80" column="29" selection-start-line="80" selection-start-column="29" selection-end-line="80" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="42" column="13" lean-forward="true" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -875,20 +874,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/knoldus/UnmodifiableVsImmutableTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="57" column="10" selection-start-line="57" selection-start-column="10" selection-end-line="57" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/knoldus/InterviewQuestion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="73" column="178" selection-start-line="73" selection-start-column="178" selection-end-line="73" selection-end-column="178" />
+        <state relative-caret-position="1278">
+          <caret line="71" column="115" selection-start-line="71" selection-start-column="115" selection-end-line="71" selection-end-column="115" />
           <folding>
-            <element signature="e#729#730#0" expanded="true" />
-            <element signature="e#833#834#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
