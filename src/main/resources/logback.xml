@@ -14,7 +14,7 @@
       </layout>
     </encoder>
     <encoder>
-      <pattern>%-35(%d{HH:mm:ss.SSS} - method: [%M] ) %highlight(%-5level) %cyan(%logger{36}) - %msg%n</pattern>
+      <pattern>%-35(%d{yyyy-MM-dd HH:mm:ss.SSS} %yellow(method:[%M] )) %highlight(%-5level) class:%blue(%logger{36}) - %n%green(%msg%n)</pattern>
     </encoder>
   </appender>
 
