@@ -10,7 +10,8 @@ package designpatterns.creational.builder;
  * What happens if in future you add 3 more items in your mart then there would be (2^7-1) constructors? To avoid such
  * scenarios Builder pattern comes into picture.
  * <p>
- * This class shows how we can create & leverage builder pattern.
+ * This class shows how we can create & leverage builder pattern. Though, a more concrete example would be that of an
+ * ingredients class but i just preferred it this way.
  */
 public class ShoppingCart {
     // Quantity of product to be purchased.
