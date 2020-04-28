@@ -1,9 +1,16 @@
 package edu.knoldus.hackerearth;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.Hashtable;
 import java.util.Map;
-import java.util.Scanner;
-import java.util.stream.IntStream;
+import java.util.StringTokenizer;
+
+/**
+ * The question is available here:
+ * https://www.hackerearth.com/practice/algorithms/searching/binary-search/practice-problems/algorithm/monk-and-search-2/
+ */
 
 /*
 This is the brute force method to capture the greater & greaterThanAndEqual values, space and time constraints is an issue.
@@ -136,40 +143,50 @@ public class TestClass {
     private final static int GREATER_THAN_OR_EQUAL = 0;
     private final static int GREATER_THAN = 1;
     
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         //Scanner
-        Scanner s = new Scanner(System.in);
-        int inputLength = s.nextInt();
-        //Integer[] input = new Integer[inputLength];
+        //Scanner s = new Scanner(System.in);
+        //FastReader reader = new FastReader();
+        BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
+        //int inputLength = s.nextInt();
+        //int inputLength = reader.nextInt();
         Map<Integer, Integer> values = new Hashtable<>();
+        int inputLength = Integer.parseInt(bf.readLine());
+        StringTokenizer tk = new StringTokenizer(bf.readLine());
         
+        for (int i = 0; i < inputLength; i++) {
+            int num = Integer.parseInt(tk.nextToken());
+            if (values.containsKey(num)) {
+                values.put(num, values.get(num) + 1);
+            } else {
+                values.put(num, 1);
+            }
+        }
         // Insert values to the map with their counts.
-        IntStream.range(0, inputLength)
+        /*IntStream.range(0, inputLength)
                 .forEach(index ->
                         {
-                            int num = s.nextInt();
+                            //int num = s.nextInt();
+                            int num = reader.nextInt();
+                            
                             if (values.containsKey(num)) {
                                 values.put(num, values.get(num) + 1);
                             } else {
                                 values.put(num, 1);
                             }
                         }
-                );
-        Integer querySize = s.nextInt();
-        //int[][] queries = new int[querySize][2];
+                );*/
+        //int querySize = s.nextInt();
+        //int querySize = reader.nextInt();
+        int querySize = Integer.parseInt(bf.readLine());
+        int[] answers = new int[querySize];
+
         /*IntStream.range(0, querySize)
-                .forEach(index ->
-                {
-                    queries[index][0] = s.nextInt();
-                    queries[index][1] = s.nextInt();
-                })*/
-        
-        Integer[] answers = new Integer[querySize];
-        IntStream.range(0, querySize)
                 .forEach(pos -> {
-                    int queryType = s.nextInt();
-                    int value = s.nextInt();
-                    
+                    //int queryType = s.nextInt();
+                    int queryType = reader.nextInt();
+                    //int value = s.nextInt();
+                    int value = reader.nextInt();
                     if (queryType == GREATER_THAN_OR_EQUAL) {
                         values.keySet().stream()
                                 .filter(key -> key >= value)
@@ -184,6 +201,211 @@ public class TestClass {
                                 });
                     }
                 });
-        IntStream.range(0, querySize).forEach(index -> System.out.println(answers[index]));
+        */
+        for (int i = 0; i < querySize; i++) {
+            int pos = i;
+            //int queryType = s.nextInt();
+            String[] query = bf.readLine().split("\\s");
+            int queryType = Integer.parseInt(query[0]);
+            //int value = s.nextInt();
+            int value = Integer.parseInt(query[1]);
+            if (queryType == GREATER_THAN_OR_EQUAL) {
+                values.keySet().stream()
+                        .filter(key -> key >= value)
+                        .forEach(resultSet -> {
+                            answers[pos] = answers[pos] + values.get(resultSet);
+                        });
+                
+            } else if (queryType == GREATER_THAN) {
+                values.keySet().stream()
+                        .filter(key -> key > value)
+                        .forEach(resultSet -> {
+                            answers[pos] = answers[pos] + values.get(resultSet);
+                        });
+                
+            }
+            System.out.println(answers[pos]);
+        }
+        // Print the answers to the console
+        /*IntStream.range(0, querySize)
+                .forEach(index -> {
+                    System.out.println(answers[index]);
+                });*/
+        
+        /*for (int i =0 ; i < querySize; i++){
+            sou
+        }*/
+        
+    }
+    
+    static class FastReader {
+        BufferedReader br;
+        StringTokenizer st;
+        
+        public FastReader() {
+            br = new BufferedReader(new InputStreamReader(System.in));
+        }
+        
+        String next() {
+            while (st == null || !st.hasMoreElements()) {
+                try {
+                    st = new StringTokenizer(br.readLine());
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+            return st.nextToken();
+        }
+        
+        int nextInt() {
+            return Integer.parseInt(next());
+        }
     }
 }
+
+/*
+
+// Some random code for making I/O faster, but something is still wrong and i need to figure it out.
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.Arrays;
+import java.util.StringTokenizer;
+
+public class TestClass {
+    
+    public static void main(String[] args) {
+        
+        FastReader reader = new FastReader();
+        
+        int size = reader.nextInt();
+        
+        int[] array = new int[size];
+        
+        for (int i = 0; i < size; i++) {
+            array[i] = reader.nextInt();
+        }
+        
+        Arrays.sort(array);
+        
+        int queryCount = reader.nextInt();
+        
+        for (int i = 0; i < queryCount; i++) {
+            
+            int queryType = reader.nextInt();
+            
+            int x = reader.nextInt();
+            
+            int numberCount = countNumbers(queryType, x, array);
+            
+            System.out.println(numberCount);
+        }
+    }
+    
+    private static int countNumbers(int queryType, int x, int[] array) {
+        
+        switch (queryType) {
+            
+            case 0:
+                return countNotLessNumbers(x, array);
+            
+            case 1:
+                return countGreaterNumbers(x, array);
+            
+            default:
+                throw new RuntimeException("Unknown query type.");
+        }
+    }
+    
+    private static int countGreaterNumbers(int x, int[] sortedArray) {
+        
+        int count = 0;
+        
+        int low = 0;
+        int high = sortedArray.length - 1;
+        
+        while (low <= high) {
+            
+            int mid = (high + low) / 2;
+            
+            if (sortedArray[mid] > x) {
+                
+                count += (high - mid + 1);
+                high = mid - 1;
+                
+            } else {
+                low = mid + 1;
+            }
+        }
+        
+        return count;
+    }
+    
+    private static int countNotLessNumbers(int x, int[] sortedArray) {
+        
+        int count = 0;
+        
+        int low = 0;
+        int high = sortedArray.length - 1;
+        
+        while (low <= high) {
+            
+            int mid = (high + low) / 2;
+            
+            if (sortedArray[mid] >= x) {
+                
+                count += (high - mid + 1);
+                high = mid - 1;
+                
+            } else {
+                low = mid + 1;
+            }
+        }
+        
+        return count;
+    }
+    
+    static class FastReader {
+        BufferedReader br;
+        StringTokenizer st;
+        
+        public FastReader() {
+            br = new BufferedReader(new
+                    InputStreamReader(System.in));
+        }
+        
+        String next() {
+            while (st == null || !st.hasMoreElements()) {
+                try {
+                    st = new StringTokenizer(br.readLine());
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+            return st.nextToken();
+        }
+        
+        int nextInt() {
+            return Integer.parseInt(next());
+        }
+        
+        long nextLong() {
+            return Long.parseLong(next());
+        }
+        
+        double nextDouble() {
+            return Double.parseDouble(next());
+        }
+        
+        String nextLine() {
+            String str = "";
+            try {
+                str = br.readLine();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            return str;
+        }
+    }
+}*/
