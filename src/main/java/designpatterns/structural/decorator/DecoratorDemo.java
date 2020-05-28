@@ -1,9 +1,9 @@
 package designpatterns.structural.decorator;
 
-import designpatterns.structural.model.CheeseDecorator;
-import designpatterns.structural.model.LettuceDecorator;
-import designpatterns.structural.model.Sandwich;
-import designpatterns.structural.model.WhiteBreadSandwich;
+import designpatterns.structural.decorator.model.CheeseDecorator;
+import designpatterns.structural.decorator.model.LettuceDecorator;
+import designpatterns.structural.decorator.model.Sandwich;
+import designpatterns.structural.decorator.model.WhiteBreadSandwich;
 
 /**
  * Decorator Pattern should be considered in the scenarios where we have a base object with us and we want to decorate

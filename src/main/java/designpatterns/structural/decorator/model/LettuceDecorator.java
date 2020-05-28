@@ -1,4 +1,4 @@
-package designpatterns.structural.model;
+package designpatterns.structural.decorator.model;
 
 import java.math.BigDecimal;
 
