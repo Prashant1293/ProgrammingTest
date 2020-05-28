@@ -1,9 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="de9d7d52-c36f-4ed9-a0fb-343d14731aa8" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/knoldus/hackerearth/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/knoldus/hackerearth/TestClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programmingtest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/programmingtest.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +83,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestClass">
+  <component name="RunManager" selected="Application.DecoratorDemo">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -72,6 +97,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="designpatterns.creational.builder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DecoratorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designpatterns.structural.decorator.DecoratorDemo" />
+      <module name="programmingtest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="designpatterns.structural.decorator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,23 +166,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnmodifiableVsImmutableTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="programmingtest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu.knoldus.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="edu.knoldus" />
-      <option name="MAIN_CLASS_NAME" value="edu.knoldus.UnmodifiableVsImmutableTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BSP.BeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -174,15 +196,15 @@
       <item itemvalue="Application.BuilderDemo" />
       <item itemvalue="Application.PrototypeDemo" />
       <item itemvalue="Application.TestClass" />
-      <item itemvalue="JUnit.UnmodifiableVsImmutableTest" />
+      <item itemvalue="Application.DecoratorDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DecoratorDemo" />
         <item itemvalue="Application.TestClass" />
         <item itemvalue="Application.PrototypeDemo" />
         <item itemvalue="Application.BuilderDemo" />
         <item itemvalue="Application.SingletonDemo" />
-        <item itemvalue="JUnit.UnmodifiableVsImmutableTest" />
       </list>
     </recent_temporary>
   </component>
@@ -231,16 +253,40 @@
       <configuration name="UnmodifiableVsImmutableTest" configurationId="JUnit" />
     </history-entry>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="339" y="175" width="677" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586421861880">
       <screen x="0" y="27" width="1366" height="694" />
     </state>
     <state x="339" y="175" width="677" height="396" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1366.694/1366.0.1280.1024@0.27.1366.694" timestamp="1586421861880" />
-    <state x="491" y="85" width="374" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1586520097960">
+    <state x="491" y="85" width="374" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1590645287215">
       <screen x="0" y="27" width="1366" height="694" />
     </state>
     <state x="491" y="85" width="374" height="592" key="#com.intellij.ide.util.MemberChooser/0.27.1366.694/1366.0.1280.1024@0.27.1366.694" timestamp="1586513977225" />
-    <state x="491" y="85" width="374" height="575" key="#com.intellij.ide.util.MemberChooser/0.27.1366.694@0.27.1366.694" timestamp="1586520097960" />
+    <state x="491" y="85" width="374" height="575" key="#com.intellij.ide.util.MemberChooser/0.27.1366.694@0.27.1366.694" timestamp="1590645287215" />
     <state x="397" y="241" width="564" height="272" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1586514581271">
       <screen x="0" y="27" width="1366" height="694" />
     </state>
@@ -253,10 +299,14 @@
       <screen x="0" y="27" width="1366" height="694" />
     </state>
     <state x="416" y="122" width="524" height="502" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.27.1366.694@0.27.1366.694" timestamp="1586856960221" />
-    <state x="305" y="117" width="1366" height="513" key="FileChooserDialogImpl" timestamp="1587041344037">
+    <state x="222" y="27" width="912" height="694" key="CommitChangelistDialog2" timestamp="1588077570061">
       <screen x="0" y="27" width="1366" height="694" />
     </state>
-    <state x="305" y="117" width="735" height="513" key="FileChooserDialogImpl/0.27.1366.694@0.27.1366.694" timestamp="1587041344037" />
+    <state x="222" y="27" width="912" height="694" key="CommitChangelistDialog2/0.27.1366.694@0.27.1366.694" timestamp="1588077570061" />
+    <state x="305" y="117" width="1366" height="513" key="FileChooserDialogImpl" timestamp="1588157686832">
+      <screen x="0" y="27" width="1366" height="694" />
+    </state>
+    <state x="305" y="117" width="735" height="513" key="FileChooserDialogImpl/0.27.1366.694@0.27.1366.694" timestamp="1588157686832" />
     <state x="1316" y="58" width="1366" height="513" key="FileChooserDialogImpl/0.27.2646.694@0.27.2646.694" timestamp="1586339867841" />
     <state width="1320" height="187" key="GridCell.Tab.0.bottom" timestamp="1587046118544">
       <screen x="0" y="27" width="1366" height="694" />
@@ -299,11 +349,19 @@
     </state>
     <state x="216" y="31" width="924" height="684" key="Maven.ArtifactSearchDialog/0.27.1366.694/1366.0.1280.1024@0.27.1366.694" timestamp="1586515027076" />
     <state x="216" y="31" width="924" height="684" key="Maven.ArtifactSearchDialog/0.27.1366.694@0.27.1366.694" timestamp="1586176577798" />
+    <state x="268" y="119" width="819" height="507" key="NewModule_or_Project.wizard" timestamp="1588157692580">
+      <screen x="0" y="27" width="1366" height="694" />
+    </state>
+    <state x="268" y="119" width="819" height="507" key="NewModule_or_Project.wizard/0.27.1366.694@0.27.1366.694" timestamp="1588157692580" />
     <state x="172" y="27" width="1012" height="694" key="SettingsEditor" timestamp="1586957621973">
       <screen x="0" y="27" width="1366" height="694" />
     </state>
     <state x="172" y="27" width="1012" height="694" key="SettingsEditor/0.27.1366.694/1366.0.1280.1024@0.27.1366.694" timestamp="1586519630292" />
     <state x="172" y="27" width="1012" height="694" key="SettingsEditor/0.27.1366.694@0.27.1366.694" timestamp="1586957621973" />
+    <state x="278" y="109" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1588077676823">
+      <screen x="0" y="27" width="1366" height="694" />
+    </state>
+    <state x="278" y="109" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1366.694@0.27.1366.694" timestamp="1588077676823" />
     <state x="339" y="200" key="com.intellij.ide.util.TipDialog" timestamp="1586254922351">
       <screen x="0" y="27" width="1366" height="694" />
     </state>
@@ -312,10 +370,10 @@
       <screen x="0" y="27" width="1366" height="694" />
     </state>
     <state x="374" y="114" width="618" height="518" key="find.popup/0.27.1366.694@0.27.1366.694" timestamp="1586959825048" />
-    <state x="0" y="27" width="1356" height="694" key="new project wizard" timestamp="1586531226004">
+    <state x="0" y="27" width="1356" height="694" key="new project wizard" timestamp="1588668079856">
       <screen x="0" y="27" width="1366" height="694" />
     </state>
-    <state x="0" y="27" width="1356" height="694" key="new project wizard/0.27.1366.694@0.27.1366.694" timestamp="1586531226004" />
+    <state x="0" y="27" width="1356" height="694" key="new project wizard/0.27.1366.694@0.27.1366.694" timestamp="1588668079856" />
     <state x="347" y="163" key="run.anything.popup" timestamp="1586255283307">
       <screen x="0" y="27" width="1366" height="694" />
     </state>
