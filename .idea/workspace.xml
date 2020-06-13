@@ -27,15 +27,6 @@
   <component name="ChangeListManager">
     <list default="true" id="de9d7d52-c36f-4ed9-a0fb-343d14731aa8" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/knoldus/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/knoldus/Child.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/knoldus/CollectionSort$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/knoldus/CollectionSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/knoldus/Human$HumanBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/knoldus/Human.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/knoldus/InterviewQuestion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/knoldus/Parent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/edu/knoldus/AppTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +81,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DivisibleSumPairProblem">
+  <component name="RunManager" selected="Application.MigratoryBirdProblem">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -113,6 +104,20 @@
     </configuration>
     <configuration name="DivisibleSumPairProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="practice.preparation.hackerrank.DivisibleSumPairProblem" />
+      <module name="programmingtest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice.preparation.hackerrank.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MigratoryBirdProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.preparation.hackerrank.MigratoryBirdProblem" />
       <module name="programmingtest" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -158,6 +163,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MigratoryBirdProblem" />
         <item itemvalue="Application.DivisibleSumPairProblem" />
         <item itemvalue="Application.BirthdayCakeProblem" />
       </list>
@@ -271,26 +277,26 @@
     </state>
     <state x="305" y="117" width="735" height="513" key="FileChooserDialogImpl/0.27.1366.694@0.27.1366.694" timestamp="1588157686832" />
     <state x="1316" y="58" width="1366" height="513" key="FileChooserDialogImpl/0.27.2646.694@0.27.2646.694" timestamp="1586339867841" />
-    <state width="1320" height="187" key="GridCell.Tab.0.bottom" timestamp="1592051823926">
+    <state width="1320" height="187" key="GridCell.Tab.0.bottom" timestamp="1592058520077">
       <screen x="0" y="27" width="1366" height="694" />
     </state>
     <state width="1320" height="421" key="GridCell.Tab.0.bottom/0.27.1366.694/1366.0.1280.1024@0.27.1366.694" timestamp="1586447315034" />
-    <state width="1320" height="187" key="GridCell.Tab.0.bottom/0.27.1366.694@0.27.1366.694" timestamp="1592051823926" />
-    <state width="1320" height="187" key="GridCell.Tab.0.center" timestamp="1592051823925">
+    <state width="1320" height="187" key="GridCell.Tab.0.bottom/0.27.1366.694@0.27.1366.694" timestamp="1592058520077" />
+    <state width="1320" height="187" key="GridCell.Tab.0.center" timestamp="1592058520076">
       <screen x="0" y="27" width="1366" height="694" />
     </state>
     <state width="1320" height="421" key="GridCell.Tab.0.center/0.27.1366.694/1366.0.1280.1024@0.27.1366.694" timestamp="1586447315032" />
-    <state width="1320" height="187" key="GridCell.Tab.0.center/0.27.1366.694@0.27.1366.694" timestamp="1592051823925" />
-    <state width="1320" height="187" key="GridCell.Tab.0.left" timestamp="1592051823924">
+    <state width="1320" height="187" key="GridCell.Tab.0.center/0.27.1366.694@0.27.1366.694" timestamp="1592058520076" />
+    <state width="1320" height="187" key="GridCell.Tab.0.left" timestamp="1592058520075">
       <screen x="0" y="27" width="1366" height="694" />
     </state>
     <state width="1320" height="421" key="GridCell.Tab.0.left/0.27.1366.694/1366.0.1280.1024@0.27.1366.694" timestamp="1586447315032" />
-    <state width="1320" height="187" key="GridCell.Tab.0.left/0.27.1366.694@0.27.1366.694" timestamp="1592051823924" />
-    <state width="1320" height="187" key="GridCell.Tab.0.right" timestamp="1592051823925">
+    <state width="1320" height="187" key="GridCell.Tab.0.left/0.27.1366.694@0.27.1366.694" timestamp="1592058520075" />
+    <state width="1320" height="187" key="GridCell.Tab.0.right" timestamp="1592058520076">
       <screen x="0" y="27" width="1366" height="694" />
     </state>
     <state width="1320" height="421" key="GridCell.Tab.0.right/0.27.1366.694/1366.0.1280.1024@0.27.1366.694" timestamp="1586447315033" />
-    <state width="1320" height="187" key="GridCell.Tab.0.right/0.27.1366.694@0.27.1366.694" timestamp="1592051823925" />
+    <state width="1320" height="187" key="GridCell.Tab.0.right/0.27.1366.694@0.27.1366.694" timestamp="1592058520076" />
     <state width="1320" height="200" key="GridCell.Tab.1.bottom" timestamp="1586255452488">
       <screen x="0" y="27" width="1366" height="694" />
     </state>
