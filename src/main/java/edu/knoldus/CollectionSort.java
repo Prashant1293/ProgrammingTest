@@ -18,7 +18,7 @@ public class CollectionSort {
         
         collectionSort.traditionalSortComparator();
         collectionSort.lambdaWayToSortComparator();
-        collectionSort.lambdaAlternativeWayToSortComparator();
+        collectionSort.methodReferenceWayToSortComparator();
         try {
             collectionSort.streamSortingListComparators();
         } catch (Exception ex) {
@@ -59,7 +59,7 @@ public class CollectionSort {
         System.out.println("\nsorted freshHumans -> " + freshHumans);
     }
     
-    private void lambdaAlternativeWayToSortComparator() {
+    private void methodReferenceWayToSortComparator() {
         //Alternative to using -> freshHumans.sort((Human h1, Human h2) -> h1.getName().compareTo(h2.getName()))
         List<Human> freshHumans1 = Arrays.asList(new Human("abra", 24, 5.11f),
                 new Human("ABRA", 21, 5.11f), new Human("aBRA", 26, 5.11f),
