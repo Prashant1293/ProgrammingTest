@@ -1,4 +1,4 @@
-package edu.knoldus;
+package practice.preparation;
 
 /**
  * Hello world!

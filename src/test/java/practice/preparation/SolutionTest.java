@@ -1,7 +1,7 @@
-package edu.knoldus;
+package practice.preparation;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import edu.knoldus.hackerrank.Solution;
+import practice.preparation.hackerrank.Solution;
 import org.junit.Test;
 
 import java.io.File;

@@ -7,7 +7,7 @@
 
   <appender name="json" class="ch.qos.logback.core.ConsoleAppender">
     <encoder class="ch.qos.logback.core.encoder.LayoutWrappingEncoder">
-      <layout class="edu.knoldus.JsonLayoutImpl">
+      <layout class="practice.preparation.JsonLayoutImpl">
         <timestampFormat>yyyy-MM-dd HH:mm:ssz</timestampFormat>
         <timestampFormatTimezoneId>EST</timestampFormatTimezoneId>
         <appendLineSeparator>true</appendLineSeparator>

@@ -1,4 +1,4 @@
-package edu.knoldus.hackerearth;
+package practice.preparation.hackerearth;
 
 import java.io.BufferedReader;
 import java.io.IOException;

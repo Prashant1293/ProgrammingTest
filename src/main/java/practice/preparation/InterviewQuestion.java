@@ -1,4 +1,4 @@
-package edu.knoldus;
+package practice.preparation;
 
 class Parent {
     void call() {

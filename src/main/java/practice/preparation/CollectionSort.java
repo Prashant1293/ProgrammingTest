@@ -1,4 +1,4 @@
-package edu.knoldus;
+package practice.preparation;
 
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;

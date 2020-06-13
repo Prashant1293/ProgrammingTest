@@ -1,4 +1,4 @@
-package edu.knoldus.hackerrank;
+package practice.preparation.hackerrank;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

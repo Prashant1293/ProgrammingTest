@@ -1,4 +1,4 @@
-package edu.knoldus;
+package practice.preparation;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package edu.knoldus;
+package practice.preparation;
 
 import static org.junit.Assert.assertTrue;
 

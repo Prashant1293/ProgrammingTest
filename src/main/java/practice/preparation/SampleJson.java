@@ -1,4 +1,4 @@
-package edu.knoldus;
+package practice.preparation;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.AccessLevel;
