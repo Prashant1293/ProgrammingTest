@@ -6,7 +6,7 @@ package impetus;
 public class SubArraySum {
     
     private static void printArraySubsets(int[] arr, int sum) {
-        for (int i = 0; i < arr.length - 1; i++) {
+        for (int i = 0; i < arr.length; i++) {
             int subsetSum = arr[i];
             int j = i + 1;
             if (arr[i] == sum) {
@@ -25,7 +25,7 @@ public class SubArraySum {
     }
     
     public static void main(String[] args) {
-        int[] arr = {-20, -10, 10, 2, -2, -20, 10};
+        int[] arr = {-20, -10, 10, 2, -2, -20, 10, -10};
         int sum = -10;
         
         printArraySubsets(arr, sum);
