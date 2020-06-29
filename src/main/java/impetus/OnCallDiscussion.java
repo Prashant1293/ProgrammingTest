@@ -14,7 +14,7 @@ package impetus;
  * memory location of the created variable, however .equals() compares two strings based on the value they contain. Thus
  * IDE also shows warning when we try compare two string objects using a == and not a equals() method.
  */
-
+@SuppressWarnings("all")
 public class OnCallDiscussion {
     public static void main(String[] args) {
         String s = "ABC";
